@@ -1,0 +1,23 @@
+# ===== 密钥与登录态（绝对不能提交）=====
+cookies.json
+*_cookie.json
+jd_api_cookie.json
+config.json
+*.env
+.env
+jd_chrome_profile/
+chrome_profile/
+
+# ===== 抓下来的原始页面 =====
+*.html
+
+# ===== Python =====
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ===== 输出 =====
+output/
+reports/
+*.log

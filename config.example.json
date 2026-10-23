@@ -1,0 +1,35 @@
+{
+  "target_group_id": "wx_group_xxx",
+  "hermes_http_url": "YOUR_VALUE_HERE",
+  "delay_min": 2.2,
+  "delay_max": 4.5,
+  "max_scroll": 3,
+  "jd": {
+    "search_keywords": [
+      "手机",
+      "电脑",
+      "耳机"
+    ],
+    "max_pages": 3,
+    "headless": true,
+    "timeout": 30
+  },
+  "hermes": {
+    "profile": "default",
+    "skill_name": "jd-monitor",
+    "cron_interval": "1h"
+  },
+  "output": {
+    "save_dir": "./data",
+    "format": "json"
+  },
+  "notify": {
+    "wechat_contacts": [
+      "破防公主"
+    ],
+    "wechat_groups": [
+      "秘密小分队"
+    ],
+    "price_drop_threshold": 0.05
+  }
+}
